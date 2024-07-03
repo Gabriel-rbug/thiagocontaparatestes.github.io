@@ -1,0 +1,78 @@
+* {
+   margin: 0;
+   padding: 0; 
+} /*retirar toda margem do site*/
+
+
+
+html, body {
+   height: 100%;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background: rgb(19,29,82);
+    background: linear-gradient(180deg, rgba(19,29,82,1) 0%, rgba(146,11,215,1) 44%);
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px; /*deixar a borda redonda*/
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px white; /*sombra*/
+}
+
+h1{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px; /*tamanho da fonte */
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center; /*alinhar texto no centro*/
+}
+
+.social {
+    display: flex; /*Posicionar imagens do lado*/
+    justify-content:space-around;     /* center; /* posicionar no centro, funciona somente com display flex*/
+    list-style: none; /* tirar as bolinhas da lista*/
+    margin: 20px 0 ;
+
+
+}
+
+.social img {
+    width: 33px; /*Largura*/
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li{
+    margin: 10px 20px
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none; /* remover linha de links*/
+    color:rgb(0, 42, 255);
+    font-weight: bold;  /*expessura da fonte*/
+
+}
+
+.links-list li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
